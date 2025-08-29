@@ -51,7 +51,7 @@ class QuadraticEquation {
     }
 }
 
-echo "<h3>QuadraticEquation Class Demo</h3>";
+echo "<h3>Quadratic Equation</h3>";
 
 // 2 roots
 echo "<b>1. ax² + bx + c = 0 where a=1, b=-3, c=2</b><br>";
@@ -77,3 +77,4 @@ echo "Root 2: " . $eq2->getRoot2() . "<br><br>";
 
 
 ?>
+
