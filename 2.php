@@ -32,7 +32,7 @@ class QuadraticEquation {
         return ($this->b * $this->b) - (4 * $this->a * $this->c);
     }
     
-    // returns first root w quadratic formuls
+    // returns first root 
     public function getRoot1() {
         $discriminant = $this->getDiscriminant();
         if ($discriminant < 0) {
@@ -41,7 +41,7 @@ class QuadraticEquation {
         return (-$this->b + sqrt($discriminant)) / (2 * $this->a);
     }
     
-    // returns second root w quadratic formula
+    // returns second root 
     public function getRoot2() {
         $discriminant = $this->getDiscriminant();
         if ($discriminant < 0) {
@@ -74,5 +74,6 @@ echo "Coefficient c: " . $eq2->getC() . "<br>";
 echo "Discriminant: " . $eq2->getDiscriminant() . "<br>";
 echo "Root 1: " . $eq2->getRoot1() . "<br>";
 echo "Root 2: " . $eq2->getRoot2() . "<br><br>";
+
 
 ?>
